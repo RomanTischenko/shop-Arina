@@ -1,0 +1,71 @@
+.shop {
+    &__title {
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 117px;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &-two {
+            padding: 130px 57px 0 57px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        &-three {
+            margin-top: 215px;
+        }
+    }
+    &__item {
+        &-bottom {
+            padding-bottom: 114px;
+        }
+        &-right {
+            margin-right: 30px;
+        }
+        &-block {
+            margin-bottom: 64px;
+        }
+        &-name {
+            margin-top: 15px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }
+        &-price {
+            margin-top: 15px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }
+    }
+    &__text {
+        margin-top: 66px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 450px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 41px;
+        color: #9B9B9B;
+        &-two {
+            margin-top: 130px;
+        }
+        &-man {
+            margin-top: 126px;
+            width: 480px;
+        }
+
+    }
+    &__strang-two {
+        margin-top: 19px;
+        position: absolute;
+        right: 0;
+    }
+}

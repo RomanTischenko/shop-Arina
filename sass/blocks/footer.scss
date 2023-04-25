@@ -1,0 +1,67 @@
+.footer {
+    margin-top: 160px;
+    background-color: #242424;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        width: 760px;
+    }
+    &__logo {
+        margin-bottom: 9px;
+    }
+    &__list {
+        padding: 47px 89px 77px 31px;
+        list-style-type: none;
+        border-bottom: 1px solid #9B9B9B;
+        &-block {
+            padding-top: 17px;
+        }
+        &-name {
+            margin-bottom: 17px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 159.5%;
+            color: #FFFFFF;
+        }
+        &-link {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 36px;
+            color: #9B9B9B;
+            text-decoration: none;
+            &:hover {
+                text-decoration-line: underline;
+            }
+        }
+    }
+    &__block {
+        margin-top: 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-name {
+            margin-right: 30%;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 159.5%;
+            color: #9B9B9B;
+        }
+        &-polici {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 159.5%;
+            color: #9B9B9B;
+        }
+        &-design {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 159.5%;
+            color: #9B9B9B;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.header {
+    margin-top: 53px;
+}
+
+.menu {
+    padding: 0 11px 0 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+
+    }
+    &__link {
+        padding-right: 45px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-decoration: none;
+
+    }
+    &__social {
+        width: 127px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__img {
+        padding-right: 140px;
+    }
+}

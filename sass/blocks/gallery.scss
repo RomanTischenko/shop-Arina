@@ -1,0 +1,52 @@
+.gallery {
+    &__title {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 159.5%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 235px;
+        &-text {
+            padding-top: 18px;
+            display: block;
+            width: 217px;
+            margin: 0 auto;
+        }
+        &-img {
+            display: block;
+            margin: 0 auto;
+        }
+        &-name {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 159.5%;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        &-price {
+            padding-top: 25px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 159.5%;
+            color: #FFFFFF;
+            text-align: center;
+        }
+    }
+}
+
+.quote {
+    margin-top: 211px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 159.5%;
+    text-align: center;
+    color: #9B9B9B;
+}

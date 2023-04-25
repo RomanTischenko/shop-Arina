@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+html {
+    background: #131313;
+}
+* {
+    font-family: 'Source', sans-serif;
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@import 'blocks/menu.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/awards.scss';
+@import 'blocks/about.scss';
+@import 'blocks/gallery.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/shop.scss';
+@import 'blocks/delivery.scss';
+@import 'blocks/payment.scss';
+@import 'blocks/history.scss';
+@import 'blocks/contacts.scss';

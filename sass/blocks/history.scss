@@ -1,0 +1,31 @@
+.history {
+    &__title {
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 117px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__header {
+        width: 500px;
+        padding-left: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        margin-top: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__descr {
+        width: 500px;
+        padding-bottom: 58px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 159.5%;
+        color: #FFFFFF;
+    }
+}

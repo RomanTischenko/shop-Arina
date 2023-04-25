@@ -1,0 +1,29 @@
+.contacts {
+    &__title {
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 117px;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        padding-right: 26px;
+        padding-left: 26px;
+        margin-top: 171px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        li {
+            list-style-type: none;
+        }
+    }
+    &__link {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 181.5%;
+        color: #9B9B9B;
+        
+    }
+}
